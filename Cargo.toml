@@ -1,0 +1,11 @@
+[package]
+authors = ["Sirius902"]
+description = "A test app using SDL3."
+edition = "2021"
+name = "sdl3-test"
+readme = "README.md"
+repository = "https://github.com/Sirius902/sdl3-test"
+version = "0.1.0"
+
+[dependencies]
+sdl3 = { version = "0", features = ["use-pkg-config"] }
