@@ -30,6 +30,7 @@
           ];
 
           packages = [
+            pkgs.clippy
             pkgs.rustfmt
             pkgs.taplo-cli
             pkgs.rust-analyzer
