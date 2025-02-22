@@ -47,7 +47,7 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
 
         canvas.present();
-        std::thread::sleep(Duration::from_secs(1) / 60);
+        std::thread::sleep(Duration::from_secs(1) / 30);
     }
 
     Ok(())
